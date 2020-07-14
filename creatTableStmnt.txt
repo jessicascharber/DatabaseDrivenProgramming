@@ -1,0 +1,21 @@
+DROP TABLE `familyMembers`;
+
+CREATE TABLE `familyMembers` (
+
+`memberId` mediumint(8) unsigned NOT NULL auto_increment,
+
+`firstName` varchar(255) default NULL,
+
+`middleName` varchar(255) default NULL,
+
+`lastName` varchar(225) default NULL,
+
+`suffix` varchar(225) default NULL,
+
+`city` varchar(255) default NULL,
+
+`dateOfBirth` varchar(255) default NULL,
+
+PRIMARY KEY (`memberId`)
+
+) AUTO_INCREMENT=1;
